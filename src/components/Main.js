@@ -5,13 +5,19 @@ import { useState } from "react";
 function Main() {
   const [filteredMovies, setFilteredMovies] = useState(moviesArray);
 
+  const showAll = () => {
+    setFilteredMovies(moviesArray)
+  }
   const displayPopular = () => {
-    let newMoviesArray = [...filteredMovies].filter(m => m.rating >= 9)
-    setFilteredMovies(newMoviesArray)
+    let newMoviesArray = [...filteredMovies].filter((m) => m.rating >= 9);
+    setFilteredMovies(newMoviesArray);
   };
 
   return (
     <>
+      <button className="button" onClick={showAll}>
+        Show all movies!
+      </button>
       <button className="button" onClick={displayPopular}>
         Show what's popular!
       </button>

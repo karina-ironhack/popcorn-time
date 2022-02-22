@@ -11,6 +11,12 @@
 .button {
     margin-bottom: 1rem;
     background-color:rgb(228, 237, 254);
-    padding: 7px 11px;
+    padding: 12px 14px;
     border: none;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
 }
