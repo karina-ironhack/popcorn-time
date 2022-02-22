@@ -2,11 +2,15 @@
     background-color: rgb(255, 239, 251);
     padding: 1rem;
     margin-bottom: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .movie.popular {
     background-color: rgb(243, 26, 189);
+}
+
+.button {
+    margin-bottom: 1rem;
+    background-color:rgb(228, 237, 254);
+    padding: 7px 11px;
+    border: none;
 }
