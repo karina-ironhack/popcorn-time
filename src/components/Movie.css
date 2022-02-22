@@ -1,6 +1,12 @@
 .movie {
-    background-color: rgb(255, 162, 233);
+    background-color: rgb(255, 239, 251);
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 1px solid #999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.movie.popular {
+    background-color: rgb(243, 26, 189);
 }
